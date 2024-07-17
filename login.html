@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div id="divMain">
+            <div id="div2" >
+                <input type="radio" checked id="signIn" name="radiologin">
+                <label class="radiolabel" for="signIn" >Sign In</label>
+                <input type="radio" id="signUp" name="radiologin">
+                <label class="radiolabel" for="signUp" >Sign Up</label>
+            
+            <div id="signIn-container" class="ele-center">
+                <h3>Sign In</h3>
+                <input type="text" id="txtusername" placeholder="Username">
+                <br><input type="password" id="txtpwd" placeholder="Password">
+                <br><input class="btn" type="button" id="btnSignin" value="Sign In">
+                <br><br><span>Don't have an account?</span>
+                <input type="button" value="Sign Up Here" id="btnsignup" class="inputBtn">
+            </div>
+            <div id="signUp-container" class="ele-center">
+                <h3>Sign Up</h3>
+                <input type="text" id="txtfullname" placeholder="Full Name">
+                <br><input type="text" id="txtemail" placeholder="Email Address">
+                <br><input type="password" id="txtpwd2" placeholder="Password">
+                <br><input class="btn" type="button" id="btnSignup" value="Sign Up">
+                <br><br><span>Already have an account?</span>
+                <input type="button" value="Sign In Here" id="btnsignup" class="inputBtn">
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

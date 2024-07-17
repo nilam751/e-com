@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+#divMain{
+    background-color: white;
+    margin: auto;
+    height: auto;
+    width: 30rem; 
+    margin-top: 5rem;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.radiolabel{
+    background-color: lightgray;
+    color: coral;
+    padding: 0.8rem;
+     cursor: pointer;
+}
+input[type=text],input[type=password]{
+    height: 2rem;
+    margin: 0.5rem;
+    width: 70%;
+}
+h3{
+    margin: 2rem;
+}
+.btn{
+    background-color: grey;
+    color:white ;
+    border: none;
+    height: 2.5rem;
+    width: 70%;
+    vertical-align: middle;
+}
+.inputBtn{
+    background-color: lightgray;
+    color: coral;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+span{
+    font-size: 0.8rem;
+    color:rgb(71, 70, 70) ;
+}
+.ele-center{
+    text-align: center;
+}
+#signUp-container,#signIn-container{
+    display: none;
+}
+ #signIn:checked ~ #signIn-container{ 
+    display: block;
+}
+#signUp:checked ~ #signUp-container{ 
+    display: block;
+}
+#div2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
